@@ -1,5 +1,5 @@
 # 2D-Ta2Ni3Te5-monolayer-ACS
-This repository contains raw data pertinent to the study titled "Raman Spectra and Excitonic effects in the novel narrow-gapped Ta2Ni3Te5 monolayer".
+This repository contains raw data pertinent to the study titled "Raman Spectra and Excitonic effects in the novel narrow-gapped Ta2Ni3Te5 monolayer". It contains the input files and part of the output files.
 
 ## Manuscript Title
 
