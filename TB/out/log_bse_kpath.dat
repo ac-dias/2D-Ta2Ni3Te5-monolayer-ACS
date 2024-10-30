@@ -1,0 +1,82 @@
+ threads:          32
+ 
+ grid:           7          32           1
+ 
+ ktol-coulomb:  1.000000047497451E-003
+ 
+ kmesh shift:  0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000
+ 
+ conduction bands, nc:          12   valence bands, nv:          12
+ 
+ Coulomb Potential:V2DT 
+ 
+ number of kpoints in the path:             60
+ 
+ 
+ begin  day           9           11 hours          18 min          55 seg
+ 
+ quantum numbers for exciton basis set finished
+ progress:           1 /          60
+ progress:           2 /          60
+ progress:           3 /          60
+ progress:           4 /          60
+ progress:           5 /          60
+ progress:           6 /          60
+ progress:           7 /          60
+ progress:           8 /          60
+ progress:           9 /          60
+ progress:          10 /          60
+ progress:          11 /          60
+ progress:          12 /          60
+ progress:          13 /          60
+ progress:          14 /          60
+ progress:          15 /          60
+ progress:          16 /          60
+ progress:          17 /          60
+ progress:          18 /          60
+ progress:          19 /          60
+ progress:          20 /          60
+ progress:          21 /          60
+ progress:          22 /          60
+ progress:          23 /          60
+ progress:          24 /          60
+ progress:          25 /          60
+ progress:          26 /          60
+ progress:          27 /          60
+ progress:          28 /          60
+ progress:          29 /          60
+ progress:          30 /          60
+ progress:          31 /          60
+ progress:          32 /          60
+ progress:          33 /          60
+ progress:          34 /          60
+ progress:          35 /          60
+ progress:          36 /          60
+ progress:          37 /          60
+ progress:          38 /          60
+ progress:          39 /          60
+ progress:          40 /          60
+ progress:          41 /          60
+ progress:          42 /          60
+ progress:          43 /          60
+ progress:          44 /          60
+ progress:          45 /          60
+ progress:          46 /          60
+ progress:          47 /          60
+ progress:          48 /          60
+ progress:          49 /          60
+ progress:          50 /          60
+ progress:          51 /          60
+ progress:          52 /          60
+ progress:          53 /          60
+ progress:          54 /          60
+ progress:          55 /          60
+ progress:          56 /          60
+ progress:          57 /          60
+ progress:          58 /          60
+ progress:          59 /          60
+ progress:          60 /          60
+ 
+ end   day           9           18 hours          17 min          17 seg
+ 
