@@ -1,0 +1,71 @@
+&control
+    prefix='ta2ni3te5'
+    calculation='scf',
+     tstress=.true.,
+    tprnfor=.true.,
+    pseudo_dir = '/ddn/data/physics/eamoujaes/PSEUDO-CREATED/'
+    wf_collect=.true.
+    outdir='/ddn/data/physics/eamoujaes/2D-Ta2Ni3Te5/RAMAN/OUT/'
+    nstep=2000
+   etot_conv_thr=1.0D-6
+   forc_conv_thr=1.0D-5
+
+/
+ &system
+ibrav =0, nat =20, ntyp  = 3, ecutwfc=60,  ecutrho=480, occupations='smearing', smearing='gaussian', degauss=0.002, nbnd=144, nosym=.true. noinv=.true.
+
+
+/
+ &electrons
+    electron_maxstep=2000
+    conv_thr=1.D-8,
+    mixing_beta=0.1
+    mixing_mode='plain'    
+        
+ /
+&ions
+ion_dynamics='bfgs'
+/
+
+&cell
+cell_dynamics='bfgs'
+press=0.0
+cell_dofree='2Dxy'
+/
+
+ATOMIC_SPECIES
+Ta  180.9479   Ta-paw-sr.upf
+Ni  58.6934    Ni-paw-sr.upf
+Te  127.6      Te-paw-sr.upf
+
+
+CELL_PARAMETERS angstrom
+  17.614245974   0.000000000   0.000000000
+   0.000000000   3.670493281   0.000000000
+   0.000000000   0.000000000  25.035599858
+
+ATOMIC_POSITIONS angstrom
+Ta              15.3672716742        0.9176238276       12.4663868468
+Ta               6.5601255996        2.7528704680       12.5694755322
+Ta               2.2632427057        0.9176238276       12.4665102541
+Ta              11.0704661320        2.7528704680       12.5693098413
+Ni              12.8494007108        0.9176238276       11.7593636567
+Ni               4.0421578905        2.7528704680       13.2764882080
+Ni               4.7812854949        0.9176238276       11.7595755514
+Ni              13.5884603096        2.7528704680       13.2762443255
+Ni               8.8153680234        0.9176238276       12.3435269414
+Ni               0.0082027227        2.7528704680       12.6922659954
+Te              14.2032590887        2.7528704680       10.5486991451
+Te               5.3960554490        0.9176238276       14.4871080992
+Te              10.5862537744        0.9176238276       10.4990381726
+Te               1.7790242209        2.7528704680       14.5367912787
+Te               3.4273100992        2.7528704680       10.5489457655
+Te              12.2345196650        0.9176238276       14.4868857398
+Te               7.0443951203        0.9176238276       10.4992159700
+Te              15.8515424922        2.7528704680       14.5366486832
+Te               0.0081686444        0.9176238276       10.8645402169
+Te               8.8153409330        2.7528704680       14.1712307760
+
+
+K_POINTS automatic
+2 10 1 0 0 0

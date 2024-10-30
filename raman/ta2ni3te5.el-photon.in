@@ -1,0 +1,7 @@
+ &BANDS
+ prefix = 'ta2ni3te5'
+ outdir='/ddn/data/physics/eamoujaes/2D-Ta2Ni3Te5/RAMAN/out/'
+ filband = 'ta2ni3te5.bands'
+ lp = .true.
+ filp = 'ta2ni3te5.dvec'
+ /

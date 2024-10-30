@@ -1,0 +1,11 @@
+phonons
+&inputph
+prefix = 'ta2ni3te5'
+outdir ='/ddn/data/physics/eamoujaes/2D-Ta2Ni3Te5/PH/out/' 
+tr2_ph = 1.0d-15
+alpha_mix=0.07
+!recover=.true.
+fildyn = 'ta2ni3te5.dyn'
+/
+0.0 0.0 0.0
+

@@ -1,0 +1,24 @@
+&inputraman
+ prefix = 'ta2ni3te5'
+ outdir='/ddn/data/physics/eamoujaes/2D-Ta2Ni3Te5/RAMAN/RESULTS/'
+ fil_dvec = 'ta2ni3te5.dvec'
+ fil_elph = 'ta2ni3te5.elph'
+ sorb = .false.
+ circular_pol =.true.
+ nonpol = .false.
+ plot_matele_opt =.false.
+ plot_matele_elph = .false.
+ plot_raman_k = .false.
+ gamma = 0.05
+ gamma_raman = 0.0002
+ rs_start = 0.03
+ rs_end = 270.0
+ nrs = 740
+elaser1=0.02
+elaser2=0.3
+elaser3=0.7
+elaser4=1.2
+elaser5=2.33
+elaser6=2.54
+elaser7=2.87
+ /

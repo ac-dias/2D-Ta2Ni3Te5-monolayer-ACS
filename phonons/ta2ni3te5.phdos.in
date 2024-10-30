@@ -1,0 +1,10 @@
+&input
+asr='crystal' 
+dos=.true.
+amass(1)= 180.9479
+amass(2)= 58.6934
+amass(3)= 127.6
+flfrc='ta2ni3te5-151.fc'
+fldos='ta2ni3te5.phdos'
+nk1=12,nk2=60,nk3=1
+/

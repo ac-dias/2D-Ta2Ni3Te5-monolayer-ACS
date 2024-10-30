@@ -1,0 +1,69 @@
+&control
+    prefix='ta2ni3te5'
+    calculation='relax',
+     tstress=.true.,
+    tprnfor=.true.,
+    pseudo_dir = '/ddn/data/physics/eamoujaes/PSEUDO-CREATED/'
+    outdir='/ddn/data/physics/eamoujaes/2D-Ta2Ni3Te5/ELASTIC/C22/OUT/'
+    nstep=2000
+   etot_conv_thr=1.0D-4
+   forc_conv_thr=1.0D-3
+
+/
+ &system
+ibrav =0, nat =20, ntyp  = 3, ecutwfc=60,  ecutrho=480, occupations='smearing', smearing='gaussian', degauss=0.002
+
+/
+ &electrons
+    electron_maxstep=2000
+    conv_thr=1.D-8,
+    mixing_beta=0.2
+    mixing_mode='plain'
+
+ /
+&ions
+ion_dynamics='bfgs'
+/
+
+&cell
+cell_dynamics='bfgs'
+press=0.0
+cell_dofree='2Dxy'
+/
+
+ATOMIC_SPECIES
+Ta  180.9479   Ta.upf
+Ni  58.6934    Ni.upf
+Te  127.6      Te.upf
+
+
+CELL_PARAMETERS angstrom
+17.64050000   0.000000000   0.000000000
+0.000000000   3.806100000   0.000000000
+0.000000000   0.000000000  25.035599858
+
+ATOMIC_POSITIONS angstrom
+Ta           15.3918408268        0.9149235643       12.4438402333
+Ta            6.5715505136        2.7447696811       12.5919963342
+Ta            2.2651556138        0.9149235643       12.4436659609
+Ta           11.0854533467        2.7447696811       12.5921564874
+Ni           12.8644081583        0.9149235643       11.7616895951
+Ni            4.0441001260        2.7447696811       13.2741439515
+Ni            4.7924667237        0.9149235643       11.7614229579
+Ni           13.6127606136        2.7447696811       13.2744010088
+Ni            8.8283466658        0.9149235643       12.3682055969
+Ni            0.0080769022        2.7447696811       12.6676098121
+Te           14.2130423748        2.7447696811       10.5352567511
+Te            5.3927218546        0.9149235643       14.5005721060
+Te           10.5954331180        0.9149235643       10.5193338760
+Te            1.7751500843        2.7447696811       14.5164949560
+Te            3.4436886923        2.7447696811       10.5350335412
+Te           12.2639895367        0.9149235643       14.5007925479
+Te            7.0616184217        0.9149235643       10.5191712715
+Te           15.8819019065        2.7447696811       14.5166671281
+Te            0.0082989229        0.9149235643       10.8376190653
+Te            8.8285579610        2.7447696811       14.1981778186
+
+K_POINTS automatic
+2 10 1 0 0 0
+
